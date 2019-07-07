@@ -1,32 +1,30 @@
 <template>
   <div id="app">
-    <img 
-      alt="Vue logo" 
-      src="./assets/logo.png" 
-    >
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <ActPresent />
+    <ActGlory />
+    <ActFresh />
+    <ActMore />
+    <ActLive />
   </div>
 </template>
 
 <script>
   import './assets/less/common.less'
-  import HelloWorld from './components/HelloWorld.vue'
+  import ActPresent from './views/act-present'
+  import ActGlory from './views/act-glory'
+  import ActFresh from './views/act-fresh'
+  import ActMore from './views/act-more'
+  import ActLive from './views/act-live'
 
   export default {
     name: 'App',
     components: {
-      HelloWorld
+      ActPresent,
+      ActGlory,
+      ActFresh,
+      ActMore,
+      ActLive
     }
   }
 </script>
 
-<style>
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
-</style>

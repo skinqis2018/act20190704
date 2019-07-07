@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>video-set-cashier</title>
+    <title>act20190704</title>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but video-set-cashier doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but act20190704 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script>
+      !(function(doc, win) {
+        var docEle = doc.documentElement,
+          event = "onorientationchange" in window ? "orientationchange" : "resize",
+          fn = function() {
+            var width = docEle.clientWidth;
+            width && (docEle.style.fontSize = 10 * (width / 192) + "px");
+          };
+        win.addEventListener(event, fn, false);
+        doc.addEventListener("DOMContentLoaded", fn, false);
+      }(document, window));
+    </script>
   </body>
 </html>
