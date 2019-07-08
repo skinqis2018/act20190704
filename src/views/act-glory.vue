@@ -79,7 +79,7 @@ export default {
               id: 7,
               nick: 'second-man',
               ranking: '8',
-              follow: '最强助攻粉丝',
+              follow: '最强助得的攻粉丝',
               avatar: require('../imgs/avatar.png')
             }, {
               id: 8,

@@ -59,12 +59,14 @@ export default {
           break;
       }
       this.mask = true
+      document.getElementsByTagName('body')[0].style.overflowY="hidden"
     },
     close () {
       this.more = false
       this.success = false
       this.error = false
       this.mask = false
+      document.getElementsByTagName('body')[0].style.overflowY="auto"
     }
   }
 }
