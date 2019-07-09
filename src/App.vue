@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <header>
+      <img src="./act201790709img/bg_header_2x.jpg" />
+    </header>
     <ActPresent />
     <ActGlory />
     <ActFresh />

@@ -1,9 +1,9 @@
 html, body{
   padding: 0;
-  margin: 0;
+  margin: 0
 }
 body {
-  background-color: rgb(24, 24, 24)
+  background-color: rgb(20, 20, 20)
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -12,38 +12,51 @@ body {
   text-align: center;
   width: 100%;
   max-width: 1920px;
-  background-image: url('../../imgs/bg_01.jpg'),
-    url('../../imgs/bg_02.jpg'),
-    url('../../imgs/bg_03.jpg'),
-    url('../../imgs/bg_04.jpg'),
-    url('../../imgs/bg_05.jpg'),
-    url('../../imgs/bg_06.jpg'),
-    url('../../imgs/bg_07.jpg'),
-    url('../../imgs/bg_08.jpg'),
-    url('../../imgs/bg_09.jpg'),
-    url('../../imgs/bg_10.jpg'),
-    url('../../imgs/bg_11.jpg'),
-    url('../../imgs/bg_12.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center top,
-    left 2.99rem,
-    left 5.98rem,
-    left 8.97rem,
-    center 11.96rem,
-    center 17.95rem,
-    center 23.94rem,
-    center 29.93rem,
-    center 35.92rem,
-    center 41.91rem,
-    center 47.9rem,
-    center 53.9rem,
-    center 60rem;
+  background-image: url(../../act201790709img/bg_icons_01.png),
+    url(../../act201790709img/bg_icons_02.png),
+    url(../../act201790709img/bg_icons_03.png),
+    url(../../act201790709img/bg_icons_04.png),
+    url(../../act201790709img/bg_light_2x.jpg),
+    url(../../act201790709img/bg_light_02_2x.jpg),
+    url('../../act201790709img/bg_footer.png'),
+    url('../../act201790709img/bg_repeat_2x.jpg');
+  background-position: right 10.89rem,
+    left 19.76rem,
+    right 29.49rem,
+    left 42.7rem,
+    left 34rem,
+    right 45.64rem,
+    center bottom,
+    center top;
+  background-repeat: no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    repeat-y;
+  background-size: 5.9rem 10.9rem,
+    6.39rem 9.74rem,
+    5.66rem 11.8rem,
+    6.34rem 7.1rem,
+    12.2rem auto,
+    4.44rem auto,
+    100% auto,
+    100% auto;
+  >header {
+    font-size: 0;
+    >img {
+      width: 100%
+    }
+  }
 }
 .present {
   width: 100%;
-  padding-top: 11rem;
   font-size: 16px;
+  background: url('../../act201790709img/bg_present_2x.jpg') center top no-repeat;
+  background-size: auto 100%;
+  padding-bottom: 1.35rem;
   &__btns {
     width: 7.14rem;
     margin: .4rem auto;
@@ -95,7 +108,7 @@ body {
 }
 .glory {
   &__title {
-    margin: 1.35rem auto .83rem auto;
+    margin: 0 auto .83rem auto;
   }
   &__content {
     width: 12.68rem;
