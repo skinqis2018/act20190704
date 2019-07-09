@@ -1,7 +1,7 @@
 <template>
   <div class="fresh">
     <ActTitle 
-      class="glory__title"
+      class="fresh__title"
       :left-img="ui.leftImg"
       :right-img="ui.rightImg"/>
     <div class="glory__content">

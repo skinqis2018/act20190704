@@ -1,7 +1,7 @@
 <template>
   <div class="live">
     <ActTitle 
-      class="glory__title"
+      class="live__title"
       :left-img="ui.leftImg"
       :right-img="ui.rightImg"/>
     <img src="../imgs/qr.jpg" />

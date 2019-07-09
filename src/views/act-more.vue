@@ -1,7 +1,7 @@
 <template>
   <div class="more">
     <ActTitle 
-      class="glory__title"
+      class="more__title"
       :left-img="ui.leftImg"
       :right-img="ui.rightImg"/>
     <div class="more__content">
