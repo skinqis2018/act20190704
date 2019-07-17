@@ -1,5 +1,16 @@
 const autoprefixer = require('autoprefixer')
 module.exports = {
+  chainWebpack: config => {
+    config.module
+      .rule('images')
+      .use('url-loader')
+      .loader('file-loader')
+      .tap(options => {
+        options.name = 'images/[name].[hash:8].[ext]'
+        return options
+      })
+
+  },
   css: {
     loaderOptions: {
       css: {
